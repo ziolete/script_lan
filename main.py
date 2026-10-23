@@ -61,7 +61,7 @@ while True:
 
         if len(s) >= 4:
             ss = ''.join(s[3::])
-#assigining vars
+#assigning vars
             if s[2] == '=':
                 if s[0] == 'int':
                     if is_arithmetic(ss) == True:
